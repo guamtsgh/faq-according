@@ -1,0 +1,50 @@
+/* * {
+    outline: 1px black solid;
+} */
+
+hr {
+    margin: 1rem 0;
+    border-color: var(--light-pink);
+    opacity: 0.3;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+
+    width: 100%;
+}
+
+.top p {
+    width: 80%;
+    font-weight: 600;
+}
+
+.top:hover p {
+    color: var(--grayish-purple);
+}
+
+.detail {
+    margin: 1.5rem 0;
+
+    font-size: 0.9rem;
+    color: var(--grayish-purple);
+    line-height: 1.2rem;
+}
+
+.detail hr {
+    margin: 1rem 0;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (min-width: 665px) {
+    .top p {
+        width: fit-content;
+    }
+}
